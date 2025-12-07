@@ -33,7 +33,7 @@ public class UserServiceTest {
      * 2、验证非简单密码创建用户，应当能够正确保存
      */
     @Test
-    public void testSaveSimplePasswd() {
+    public void test_SaveSimplePasswd() {
         // 验证使用简单密码创建用户时，应当抛出异常
         UserCreateRequest simplePasswdRequest = new UserCreateRequest("user-01", "123456");
         // 执行被测试方法，并验证异常类型是否匹配

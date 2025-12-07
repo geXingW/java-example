@@ -45,6 +45,7 @@
         <module>unit-test</module>
         <module>web-service</module>
         <module>lock</module>
+        <module>concurrent</module>
     </modules>
 
     <dependencies>

@@ -9,8 +9,9 @@ public class QuickSort {
 
     public static void main(String[] args) {
 //        int[] unSort = new int[]{5, 3, 1, 2, 4, 6, 9, 10, 8, 7};
+        int[] unSort = {3, 1, 6, 5, 1, 4, 2, 0};
 //        int[] unSort = new int[]{5, 3, 1, 2};
-        int[] unSort = {5, 3, 6, 2};
+//        int[] unSort = {5, 3, 6, 2};
 
         System.out.println(Arrays.toString(quickSort(unSort, 0, unSort.length - 1)));
 
