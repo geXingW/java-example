@@ -27,6 +27,8 @@
         <guava.version>23.0</guava.version>
         <pagehelper.version>1.4.5</pagehelper.version>
 
+        <mapstruct.version>1.5.5.Final</mapstruct.version>
+
         <common-module.version>0.0.1-SNAPSHOT</common-module.version>
 
         <power-mockito.version>2.0.9</power-mockito.version>
@@ -46,6 +48,7 @@
         <module>web-service</module>
         <module>lock</module>
         <module>concurrent</module>
+        <module>map-struct</module>
     </modules>
 
     <dependencies>
@@ -129,6 +132,12 @@
                 <artifactId>powermock-module-junit4</artifactId>
                 <version>${power-mockito.version}</version>
                 <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mapstruct</groupId>
+                <artifactId>mapstruct</artifactId>
+                <version>${mapstruct.version}</version>
             </dependency>
 
 
